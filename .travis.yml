@@ -1,7 +1,11 @@
 language: go
 
+arch:
+    - AMD64
+    - ppc64le
+
 go:
-    - 1.2
+    - 1.15
 
 install:
     - 'go install github.com/onsi/ginkgo/ginkgo'
